@@ -1,0 +1,159 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+.Header{
+    border-radius: 50px;
+    display: inline-block;
+    width: auto;
+    border-bottom: 5px solid black;
+    float: right;
+    margin: 10px;
+}
+
+.headerText {
+    border-radius: 30%;
+}
+
+
+
+body {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 250%;
+    border-bottom: 5px solid black;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 200%;
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 150%;
+}
+
+p {
+    font-size: 100%;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+article {
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+ul {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.top10 {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.hemhem {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Copyright {
+    color: rgb(0, 0, 0);
+    background-color: grey;
+    align-self: center;
+    margin: 0% auto;
+    border: 0px;
+    height: 150px;
+    text-align: center;
+    offset: top 75px;
+}
+
+.Portrait {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.naamText {
+    overflow: hidden;
+    height: 300px;
+}
+
+.woonplaatsFoto {
+    float: right;
+    margin-left:  10px;
+    height: 250px;
+}
+
+.woonplaatsTitel {
+    float: right;
+    margin-left: 10px;
+}
+
+.woonplaatsText {
+    overflow: hidden;
+    height: 300px;
+}
+
+.boekfoto {
+    float: left;
+    margin-right:  10px;
+    height: 250px;
+}
+
+.hobbystitel {
+    float: left;
+    margin-right: 10px;
+}
+
+.hobbysText {
+    overflow: hidden;
+    height: 300px;
+}
+
+.Shiloette {
+    float: right;
+    margin-left:  10px;
+    height: 250px;
+}
+
+.watKanHijTitel {
+    float: right;
+    margin-left: 10px;
+}
+
+.watKanHijText {
+    overflow: hidden;
+    height: 300px;
+}
+
+.Footer {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: grey;
+    text-align: center;
+    border: none;
+
+
+}
