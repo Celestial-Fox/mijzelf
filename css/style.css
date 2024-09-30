@@ -7,20 +7,36 @@ html {
 }
 
 .Header{
-    border-radius: 50px;
-    display: block;
-    width: auto;
-    border-bottom: 5px solid black;
-    float: right;
-    margin-right: 20px;
-    
+    height: 60px;
+    border-bottom: solid black;
+    display: flex;
+    justify-content: end;
+}
+
+#darkmode {
+    color: white;
+    background-color: black;
+}
+
+#darkmode:hover {
+    color: black;
+    background-color: white;
+
 }
 
 .headerText {
     border-radius: 30%;
+    transition: 0.2s;
+    
 }
 
+.headerText:hover {
+    color: white;
+    border-color: rgb(20, 20, 20);
+    background-color: black;
+    cursor: pointer;
 
+}
 
 body {
     font-size: 20px;
@@ -30,7 +46,9 @@ h1 {
     font-size: 250%;
     border-bottom: 5px solid black;
     margin: 20px;
-    display: block;
+
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -49,6 +67,10 @@ p {
     border: 2px solid black;
     background-color: rgb(255, 255, 255);
     padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 article {
@@ -151,13 +173,13 @@ ul {
     height: 300px;
 }
 
-.Footer {
-    margin: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
+footer {
     background-color: grey;
     text-align: center;
     border: none;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 150px;
 }
