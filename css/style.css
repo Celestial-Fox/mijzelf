@@ -8,11 +8,12 @@ html {
 
 .Header{
     border-radius: 50px;
-    display: inline-block;
+    display: block;
     width: auto;
     border-bottom: 5px solid black;
     float: right;
-    margin: 10px;
+    margin-right: 20px;
+    
 }
 
 .headerText {
@@ -29,6 +30,7 @@ h1 {
     font-size: 250%;
     border-bottom: 5px solid black;
     margin: 20px;
+    display: block;
 }
 
 h2 {
@@ -46,12 +48,14 @@ p {
     margin: 10px;
     border: 2px solid black;
     background-color: rgb(255, 255, 255);
+    padding: auto;
 }
 
 article {
-    width: 80vw;
+    width: 75vw;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
+    overflow: hidden;
 }
 
 img {
